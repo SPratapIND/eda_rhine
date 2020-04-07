@@ -38,8 +38,7 @@ library(data.table)
 library(ggplot2)
 runoff_stations <- readRDS('./data/runoff_stations_raw.rds')
 runoff_day <- readRDS('./data/runoff_day_raw.rds')
-head(runoff_day)
-head(runoff_stations)
+
 
 #average catchment area
 mean(runoff_stations$area)
