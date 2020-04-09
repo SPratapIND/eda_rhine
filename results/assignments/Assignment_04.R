@@ -65,7 +65,7 @@ ggplot(runoff_month, aes(sname, value)) +
 
 
 
-# 3 
+# 3 ---
 
 runoff_winter[, value_norm := scale(value), sname]
 runoff_summer[, value_norm := scale(value), sname]
@@ -90,7 +90,7 @@ ggplot(runoff_summer[year > 1950], aes(x = year, y = value_norm, col = sname)) +
 
 #Explorer’s questions
 
-#1-
+#1 -
 
 The behaviour of DOMA is different than the other stations because-
  - Situated in Alps area, located before a large water reservoir  
@@ -116,6 +116,8 @@ ggplot(precip_day, aes(x = date, y = value)) +
 
 #3
 
-As the study sugests a clear shift in the median and the 25-75% range after the yaer 2000 (Middelkoop et al). however study also suggets that winter runoff has been increased and summer runoff has been decreased over Rhine river basin. study over the upstream catchments (DOMA) with comparision to lowland regions (KOEL) are necessory to track variation in runoff.
+As the study sugests a clear shift in the median and the 25-75% range after the yaer 2000 (Middelkoop et al). however study also 
+       suggets that winter runoff has been increased and summer runoff has been decreased over Rhine river basin. study over the 
+       upstream catchments (DOMA) with comparision to lowland regions (KOEL) are necessory to track variation in runoff.
 
 
