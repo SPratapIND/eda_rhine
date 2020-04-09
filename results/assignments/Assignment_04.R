@@ -92,9 +92,30 @@ ggplot(runoff_summer[year > 1950], aes(x = year, y = value_norm, col = sname)) +
 
 #1-
 
+The behaviour of DOMA is different than the other stations because-
+ - Situated in Alps area, located before a large water reservoir  
 
 
 
+#2 - 
+precip_day <- readRDS('./data/precip_day.rds')
+ggplot(precip_day, aes(x = date, y = value) +
+         geom_boxplot() +
+         facet_wrap(~date, scales = 'free') +
+         xlab(label = "Time") +
+         ylab(label = "Rainfall (mm)") +
+         theme_bw()
+       
+ggplot(precip_day, aes(x = date, y = value)) +
+         geom_point(shape=19) +    
+         geom_smooth(method=lm, formula = y~x, se=F)+
+         xlab(label = "Time") +
+         ylab(label = "Runoff (m3/s)") +
+         theme_bw()
 
+
+#3
+
+As the study sugests a clear shift in the median and the 25-75% range after the yaer 2000 (Middelkoop et al). however study also suggets that winter runoff has been increased and summer runoff has been decreased over Rhine river basin. study over the upstream catchments (DOMA) with comparision to lowland regions (KOEL) are necessory to track variation in runoff.
 
 
