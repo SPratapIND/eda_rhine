@@ -116,8 +116,8 @@ ggplot(precip_day, aes(x = date, y = value)) +
 
 #3
 
-As the study sugests a clear shift in the median and the 25-75% range after the year 2000 (Middelkoop et al). however study also 
-       suggets that winter runoff has been increased and summer runoff has been decreased over Rhine river basin. study over the 
+As the study sugests a clear shift in the median and the 25-75% range after the year 2000 (Middelkoop et al). However, study also 
+       suggets that winter runoff has been increased and summer runoff has been decreased over Rhine river basin. Study over the 
        upstream catchments (DOMA) with comparision to lowland regions (KOEL) are necessory to track variation in runoff.
 
 
