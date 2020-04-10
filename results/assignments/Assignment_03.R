@@ -72,10 +72,12 @@ Mean   :NaN
 Max.   : NA             
 NA's   :17 ' 
 
-The region behind the median and the mean are not the same in Rhine runoff, might be the varaiability in the precipitation (throughout year) with the variation in the altitute of monitoring station and other geographical and meteorological factor (wind).
+The region behind the median and the mean are not the same in Rhine runoff, might be the varaiability in the precipitation 
+(throughout year) with the variation in the altitute of monitoring station and other geographical and meteorological factor (wind).
 
 #3 - Do you notice something strange regarding the location of the stations LOBI and REES? Can you think of a possible explanation?
-LOBI and REES both are nearest stations and showing similar runoff pattern.As these stations are situated near the sea, therefore recieves sufficient rainfall throughout year.
+LOBI and REES both are nearest stations and showing similar runoff pattern.As these stations are situated near the sea, therefore 
+recieves sufficient rainfall throughout year.
 
 
 #4 - Which were the months, seasons, years with the highest/lowest runoff at each location? Try to present them in comprehensive way.
